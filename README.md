@@ -21,5 +21,5 @@ Portions of this code, as well as the datasets used to produce our experimental 
 - **MNIST dataset**: from http://yann.lecun.com/exdb/mnist/. Distributed under the Creative Commons Attribution-Share Alike 3.0 license.
 - **Fashion MNIST datset**: from  https://github.com/zalandoresearch/fashion-mnist ((c) 2017 Zalando SE, https://tech.zalando.com). Distributed under the MIT licence.
 - **CelebA-HQ dataset**: from https://paperswithcode.com/dataset/celeba-hq
-- **Image translation datasets**: from https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix ((c) 2017, Jun-Yan Zhu and Taesung Park). Distributed under the BSD licence.
-- **BSDS500 dataset**: from https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html.
+- **CIFAR10 dataset**: from https://www.cs.toronto.edu/~kriz/cifar.html.
+- **FFHQ dataset**: from https://github.com/NVlabs/ffhq-dataset
