@@ -5,9 +5,9 @@ This repository is a PyTorch implementation of WGAN-GP (Gulrajani et al. 2017) t
 ## How to run this code ##
 * Create a Python virtual environment with Python 3.8 installed.
 * Install the packages listed in requirements.txt (pip install -r requirements.txt)
-* Training and evaluating performance through FID are both done by running train.py. The results will be saved in a directory specified by the --folder argument (this directory should either not exist or be empty when running train.py).
+* Training and evaluating performance through FID are both done by running the train.py script. The results will be saved in a directory specified by the --folder argument (this directory should either not exist or be empty when running train.py).
 
-The image generation experiments we ran with WGAN-GP are described in Section 5 and Appendix 8 of the paper. Here, we include an example of a shell script that could be used (after minor modifications) to run WGAN-GP experiments. Running train.py will train an instance of WGAN-GP for a specified number of iterations while also stopping training at regular intervals to evaluate performance through FID. The number of FID evaluations is specified through the 'checkpoints' argument. A past experiment can be resumed by specifying the same path with the 'folder' argument. Note that training WGAN-GP is computationally demanding, and thus requires adequate computational resources (i.e. running this on your laptop is not recommended).
+The image generation experiments we ran with WGAN-GP are described in Section 5 and Appendix 8 of the paper. Here, we include an example of a shell script that could be used (after minor modifications) to run WGAN-GP experiments. Running train.py will train an instance of WGAN-GP for a specified number of iterations while also stopping training at regular intervals to evaluate performance through FID. The number of FID evaluations is specified through the --checkpoints argument. A past experiment can be resumed by specifying the same path with the --folder argument. Note that training WGAN-GP is computationally demanding, and thus requires adequate computational resources (i.e. running this on a regular laptop is not recommended).
 
 
 ### Computing architecture and running times
