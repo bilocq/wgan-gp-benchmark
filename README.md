@@ -1,5 +1,5 @@
 # WGAN-GP Benchmark
-This repository is a PyTorch implementation of WGAN-GP (Gulrajani et al. 2017) that was used to run the benchmark image generation experiments in *A new method for determining Wasserstein 1 optimal transport maps from Kantorovich potentials, with deep learning applications* (arXiv link coming soon). The main codebase for the TTC algorithm introduced in that paper is [here](https://github.com/bilocq/Trust-the-Critics-2).
+This repository is a PyTorch implementation of WGAN-GP (Gulrajani et al. 2017) that was used to run the benchmark image generation experiments in [*A new method for determining Wasserstein 1 optimal transport maps from Kantorovich potentials, with deep learning applications*](https://arxiv.org/abs/2211.00820). The main codebase for the TTC algorithm introduced in that paper is [here](https://github.com/bilocq/Trust-the-Critics-2).
 
 
 ## How to run this code ##
